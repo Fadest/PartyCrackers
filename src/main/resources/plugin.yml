@@ -1,0 +1,17 @@
+name: PartyCrackers
+main: dev.fadest.partycrackers.PartyCrackersPlugin
+description: A trial PartyCracker plugin made for Meraki Studios
+version: 1.0.0
+api-version: 1.18
+author: Fadest
+libraries:
+  - net.kyori:adventure-text-minimessage:4.10.1
+  - commons-io:commons-io:2.11.0
+commands:
+  partycracker:
+    description: The main command of the partycracker plugin
+    aliases: [ pc, pcs, partycrackers ]
+    usage: /partycracker <subcommand>
+permissions:
+  partycracker.admin:
+    description: Allows the player to use the /partycracker command

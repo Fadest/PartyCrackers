@@ -1,0 +1,41 @@
+[
+  {
+    "id": "default",
+    "seconds": 5,
+    "ticking_sound": "UI_BUTTON_CLICK",
+    "explosion_sound": "UI_TOAST_CHALLENGE_COMPLETE",
+    "explosion_particle": "VILLAGER_HAPPY",
+    "item": {
+      "type": "TRIPWIRE_HOOK",
+      "name": "<#fcdf03>Default Party Cracker",
+      "lore": [
+        "<gray>This is the default party cracker",
+        "<gray>Drop it to get rewards!"
+      ],
+      "glowing": true
+    },
+    "rewards": [
+      {
+        "type": "COMMAND",
+        "command": "give {player} minecraft:diamond 64",
+        "message": "<yellow>You have received 64 diamonds!",
+        "chance": 50
+      },
+      {
+        "type": "ITEM",
+        "item": {
+          "type": "STONE",
+          "name": "<gradient:#03dbfc:#035afc>Enchanted Stone</gradient>",
+          "lore": [
+            "<gray>This is an enchanted stone!"
+          ],
+          "glowing": true
+        },
+        "message": "<yellow>You have received x{amount} enchanted stone blocks!",
+        "chance": 10,
+        "min": 1,
+        "max": 10
+      }
+    ]
+  }
+]
