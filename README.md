@@ -5,11 +5,11 @@ located in [this link](https://docs.google.com/document/d/1aJMZBo-iByt0O6xmcxGsi
 
 ## Commands
 
-- /partycracker give <player> <type> (amount) » Give a player a certain amount of a Party Cracker type
+- /partycracker give [player] [type] (amount) » Give a player a certain amount of a Party Cracker type
 - /partycracker list » List all Party Crackers
 - /partycracker reload » Reload the messages and party crackers (Using this command will forcefully end the current
   party crackers)
-- /partycracker info <type>» Get information about a Party Cracker type
+- /partycracker info [type]» Get information about a Party Cracker type
 
 ## Tracked Time
 
